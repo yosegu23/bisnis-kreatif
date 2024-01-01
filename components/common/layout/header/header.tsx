@@ -1,6 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
-import { Hamburger, ShoppingCartIcon, Logo, Cart } from "../../";
+import { Hamburger } from "../../";
 import MobileNavLinks from "./mobileNavLinks";
 import { useShoppingCart } from "../../../../context/shoppingCartContext";
 import Image from "next/image";
