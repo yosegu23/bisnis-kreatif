@@ -1,10 +1,9 @@
-import {Hamburger,ShoppingCartIcon,Close} from "./icons";
+import {Hamburger,Close} from "./icons";
 import Logo from "./logo";
 import ImageMagnifier from "./ImageMagnifier";
 import Layout from "./layout";
 import Rating from "./rating";
 import MultiRangeSlider from "./multiRangeSlider";
-import Cart from "./cart";
 import ProductAmount from "./productAmount";
 import { 
    Men,
@@ -14,7 +13,6 @@ import {
    RelatedProducts} from "./products";
 export {
    Hamburger,
-   ShoppingCartIcon,
    Logo,
    Close,
    ImageMagnifier,
@@ -24,8 +22,6 @@ export {
    NewArrivals,
    Product,
    RelatedProducts,
-   MultiRangeSlider,
    Rating,
-   Cart,
    ProductAmount
 }

@@ -87,15 +87,8 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="relative cursor-pointer " onClick={handleShowCart}>
-            {/* <span className="absolute text-[1rem] font-semibold  top-[25%] left-[36%] text-primary">
-              {shoppingCart ? shoppingCart.length : 0}
-            </span> */}
-            {/* <ShoppingCartIcon width="35px" height="35px" color="#6e7051" /> */}
-          </div>
         </div>
       </nav>
-      {/* <Cart showCart={showCart} handleHideCart={handleHideCart} /> */}
     </header>
   );
 };
